@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grids</title>
+    <link rel = "stylesheet" href="" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            .box{
+                background-color: rgb(148, 110, 151);
+                color: rgb(255, 255, 255);
+                padding:0.1rem;
+            }
+            /* grid container */
+            .gc {
+                display: grid;
+                gap: 0.5rem;
+                /* specify width of columns */
+                grid-template-columns: 150px 250px;
+                /* specify height of the rows */
+                grid-template-rows: repeat(3,150px);  
+                /* we wrote 3 bc we need 6 boxes */
+                /* centers whole grid */
+                place-content: center;
+            }
+            @media (min-width:700px) {
+                .gc{
+                    grid-template-columns: 200px 200px 200px;
+                    grid-template-rows: 200px 200px;
+                }
+            }
+            @media (min-width:1024px){
+                .gc{
+
+                    grid-template-columns:repeat( 4, 250px);
+                    grid-template-rows:repeat( 2, 250px);
+                }
+                /* #m1{
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    grid-row-start:1;
+                    grid-row-end:2;
+
+                }
+                #m2{
+                    grid-column-start: 3;
+                    grid-column-end: 4;
+                }
+                #m3{
+                    grid-row-start: 2;
+                    grid-row-end:4;
+                }
+                #m5{
+                    grid-column-start: 2;
+                    grid-column-end:4;
+
+                    grid-row-start: 3;
+
+                    grid-row-end: 4;
+
+                } */
+                #m6 {
+                    grid-column: 2 / -1 ;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="box" style="height: 10vh;" >
+        <span style ="font-size: 2rem; margin-right: 1rem;">&#x2654</span>Header/Navbar </section>
+        <section
+         class="box gc"
+         style="height: 95vh; background-color: rgb(255, 255, 255);"
+         >
+        <main class="box" id="m1">Content-1</main>
+        <main class="box" id="m2">Content-2</main>
+        <main class="box" id="m3">Content-3</main>
+        <main class="box" id="m4">Content-4</main>
+        <main class="box" id="m5">Content-5</main>
+        <main class="box" id="m6">Content-6</main>
+        </section>
+        <section
+              class="box" style="height: 10vh;font-size: 1rem; margin-right: 1rem;">  Footer </section>
+       
+</body>
+</html>
+

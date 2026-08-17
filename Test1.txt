@@ -1,0 +1,18 @@
+Q1. What do you know about functions?
+   Functions in JavaScript are reusable blocks of code that perform a specific task when called.
+
+
+Q2. What is layout?
+    lyaouts are the ways elements are arranged in displayed on a webpage.
+
+
+Q3. What do you know about flex layout?
+    it's a css model used to arrange items in rows and columns and align them easily.
+
+
+Q4. What is the need of grid layout
+    It's used to create complex and responsive webpages by arranging elements in rows and columns
+    
+
+Q5. What is the use of Github?
+    github is a platform used to upload, share, manage, collaborate and store your work files.
