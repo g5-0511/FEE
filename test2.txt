@@ -1,0 +1,22 @@
+FEE TEST :
+----------------------------------------------------------------------------------------------
+TOPIC 1 - ROUTING 
+
+Routing in front-end development is the process of navigating between different
+pages or sections of a website without having to reload the entire page.
+It helps users move from one page to another, such as Home, About, Contact,
+or Profile, smoothly. In React, we commonly use React Router to manage routing.
+It allows us to create multiple pages, connect them using links, and display
+the correct content based on the URL. Routing makes websites easier to navigate, 
+faster, and more user-friendly.
+---------------------------------------------------------------------------------------------
+
+TOPIC - 2  TOAST NOTIFICATOIN 
+
+Toast notification is a small pop-up message that appears on the screen to give
+users quick feedback about an action they have performed. For example, when a user
+successfully logs in, saves a form, deletes an item, or encounters an error, a toast 
+notification displays a short message. It usually appears for a few seconds and 
+disappears automatically. Toast notifications help users understand what is happening 
+on a website without interrupting their work or navigation.
+--------------------------------------------------------------------------------------------
